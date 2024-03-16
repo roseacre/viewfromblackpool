@@ -1,0 +1,6 @@
+HamsterDays started with html,css, bootstrap and a little php.
+
+ViewFromBlackpool
+version 1: html, css, flexbox. Duplication throughout the html pages
+version 2: NodeJS, express, flexbox, EJS. Creation of partials allowed single source of footer, headers etc and reuse.
+

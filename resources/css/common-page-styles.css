@@ -1,0 +1,266 @@
+
+.front-page {
+  /* display: none; */
+}
+
+.section-1 {
+  width: 100%;
+  height: 60vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(99,123,147,0.5) 0%,
+      rgba(99,123,147,0.6) 46%,
+      rgba(167,142,122,0.7) 100%
+    ),
+    url(./../../images/blackpool-beach.webp) top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-history {
+  width: 100%;
+  height: 60vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(99,123,147,0.5) 0%,
+      rgba(99,123,147,0.6) 46%,
+      rgba(167,142,122,0.7) 100%
+    ),
+    url(./images/blackpool-beach.webp) top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-cat-image {
+  width: 100%;
+  height: 60vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(99,123,147,0.5) 0%,
+      rgba(99,123,147,0.6) 46%,
+      rgba(167,142,122,0.7) 100%
+    ),
+    url(./../../images/kuma.webp) top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-dog-image {
+  width: 100%;
+  height: 60vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(99,123,147,0.5) 0%,
+      rgba(99,123,147,0.6) 46%,
+      rgba(167,142,122,0.7) 100%
+    ),
+    url(./../../images/jak.webp) top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-nikki-image {
+  width: 100%;
+  height: 60vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(99,123,147,0.5) 0%,
+      rgba(99,123,147,0.6) 46%,
+      rgba(167,142,122,0.7) 100%
+    ),
+    url(./../../images/nikita.webp) top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 9rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: .5rem;
+}
+
+.section-2-paragraph {
+  font-size: 2rem;
+  color: #000;
+  width: 70%;
+  margin: 0 auto 2rem auto;
+}
+
+.section-2-paragraph-grey {
+  font-size: 2rem;
+  color: #000;
+  background-color: lightgrey;
+  width: 70%;
+  margin: 0 auto 2rem auto;
+}
+
+.section-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.section-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+.section-left {
+  width: 100%;
+  align-items: left;
+  padding: 1rem 0 1rem 0;
+}
+
+.section-2-heading {
+  font-size: 4.5rem;
+  font-weight: 300;
+  color: #333;
+}
+
+.services {
+  display: flex;
+}
+
+.services-2 {
+  display: flex;
+  width: 70%;
+}
+
+.service {
+  width: 35rem;
+  text-align: center;
+  margin: 0 5rem;
+  padding-bottom: 2rem;
+}
+
+.service i {
+  font-size: 6rem;
+  margin: 2rem 0;
+}
+
+.service-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #036bb1;
+}
+
+.service-paragraph {
+  font-size: 2rem;
+  color: #036bb1;
+  margin-top: .5em;
+}
+
+.nav-list-item a {
+  color: #fff;
+}
+
+.nav-list-item a:hover {
+  color: #000;
+}
+
+.nav-list-item a:focus {
+  color: #000;
+}
+
+.ul-bulleted-list {
+  width: 70%;
+  text-align: left;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+
+.li-bulleted-list {
+  list-style: square;
+  text-align: left;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+
+.li-no-bullet-list {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+
+.full-image {
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+
+.half-image {
+	width: 50%;
+	margin: auto;
+	display: flex;
+	padding-bottom: 1rem;
+}
+
+.quarter-image {
+	width: 25%;
+	display: flex;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+.small-image {
+	width: 15%;
+	display: flex;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-top {
+  margin-top: 4rem;
+}
+
+.pseudo-table-container {
+  display: flex;
+  column-gap: 2rem;
+	width: 50%;
+	padding-bottom: 1rem;
+}
+
+.pseudo-table-key-cell {
+  display: flex;
+	background-color: #a78e7ab3;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pseudo-table-value-cell {
+  display: flex;
+  font-size: 2rem;
+}

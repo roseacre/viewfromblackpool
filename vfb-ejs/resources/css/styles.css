@@ -1,0 +1,644 @@
+/* ------------------ Other ------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: "Baloo Da 2", cursive;
+}
+/* ------------------ Images ------------------ */
+.full-image {
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+.half-image {
+	width: 50%;
+	margin: auto;
+	display: flex;
+	padding-bottom: 1rem;
+}
+.quarter-image {
+	width: 25%;
+	display: flex;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+}
+.small-image {
+	width: 15%;
+	display: flex;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-bottom: 1rem;
+}
+/* ------------------ Colours ------------------ */
+.black {
+  color: #000;
+}
+.blue {
+  color: #0072AF;
+}
+.brown {
+  color: #873e23;
+}
+.green {
+  color: #3d7f42;
+}
+.grey {
+  color: #464848;
+}
+.purple {
+  color: #702387;
+}
+.sand {
+  color: #7d655d;
+}
+
+/* ------------------ A ------------------ */
+aside .section-2-paragraph-grey {
+  font-size: 2rem;
+  color: #000;
+  background-color: lightgrey;
+  width: 90%;
+  margin: 0 auto 2rem auto;
+}
+/* ------------------ B ------------------ */
+.banner {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+}
+.banner-heading {
+  font-size: 9rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: .5rem;
+}
+.blue-btn {
+  width: 35rem;
+  height: 5rem;
+  background-color: #0072AF;
+  color: #fff;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.bulleted-list:hover {
+  border-bottom: 0.2rem solid #fff;
+}
+.bulleted-list a {
+  color: #0072AF;
+}
+.bulleted-list a:visited {
+  color: red;
+}
+.bulleted-list a:active {
+  color: #000;
+}
+.bulleted-list a:hover {
+  color: #000;
+}
+.bulleted-list a:focus {
+  color: #000;
+}
+/* ------------------ C ------------------ */
+.copyright {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+/* ------------------ D ------------------ */
+.dropdown-heading {
+  display: none;
+}
+/* ------------------ E ------------------ */
+/* ------------------ F ------------------ */
+.footer {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 4rem 0 3rem 0;
+  background-color: #0072AF;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  margin-left: 2.5rem;
+  justify-content: space-between;
+}
+.footer-top {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.1rem dotted #262626;
+  padding-bottom: 1rem;
+}
+.footer-list {
+  display: flex;
+  align-items: center;
+}
+.footer-list li {
+  margin-right: 2.5rem;
+}
+.footer-list a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 1.5rem 0;
+}
+.footer-list a:focus {
+  color: #000;
+}
+.footer-list a:hover {
+  color: #000;
+}
+.footer-list img {
+  width: 3.8rem;
+  opacity: 0.6;
+}
+.front-page {
+  /* display: none; */
+}
+/* ------------------ G ------------------ */
+.general-link {
+  color: #0072AF;
+}
+.general-link:link {
+  color: #0072AF;
+}
+.general-link:visited {
+  color: red;
+}
+.general-link:hover {
+  color: #000;
+}
+.general-link:active, .general-link:focus {
+  color: #000;
+}
+/* ------------------ H ------------------ */
+.header-link {
+  font-family: GDS Transport, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  color: #036bb1;
+}
+@media print {
+  .header-link {
+  font-family: sans-serif;
+}
+}.header-link:link, .header-link:visited {
+  color: #036bb1;
+}
+.header-link:active, .header-link:hover {
+  color: #000;
+}
+.header-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: .1em;
+}
+.header-link:focus {
+  outline: 3px solid rgba(0, 0, 0, 0);
+  color: #0b0c0c;
+  background-color: #fd0;
+  box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+  text-decoration: none;
+}
+html {
+	font-size: 62.5%;
+}
+/* ------------------ I ------------------ */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ------------------ J ------------------ */
+/* ------------------ J ------------------ */
+/* ------------------ L ------------------ */
+.li-bulleted-list {
+  list-style: square;
+  text-align: left;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+.li-no-bullet-list {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+.logo {
+  font-size: 4.5rem;
+  font-style: italic;
+  font-weight: 800;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  margin-left: 2.5rem;
+  text-shadow: .4rem .4rem #464848;
+}
+.logo-image {
+  height: 5.8rem;
+  display: flex;
+  margin-left: 2.5rem;
+}
+/* ------------------ M ------------------ */
+.margin-top {
+  margin-top: 4rem;
+}
+/* ------------------ N ------------------ */
+.navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-btn {
+  width: 8rem;
+  padding: 0.7rem;
+  margin: 0.3rem;
+  border-radius: 3rem;
+  border: 0.1rem solid #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.navbar-btn:nth-child(1) {
+  background-color: transparent;
+  color: #fff;
+}
+.navbar-btn:nth-child(2) {
+  background-color: #fff;
+  color: #262626;
+}
+.navbar-wrapper {
+  width: 100%;
+  height: 6rem;
+  border-bottom: 0.1rem solid #aaa;
+  display: flex;
+  justify-content: center;
+  background-color: #0072AF;
+}
+.nav-dropdown {
+  width: 100%;
+  height: 20rem;
+  background: linear-gradient(to right, #066399, #2f8fdf, #066399);
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  z-index: 100;
+  padding: 0 30rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+}
+.nav-dropdown-item {
+  width: 25rem;
+  margin: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.nav-dropdown-link-1 {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.nav-dropdown-link-2 {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:link {
+  color: #fff;
+}
+.nav-link:visited {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #000;
+}
+.nav-link:active, .nav-link:focus {
+  color: #000;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list-item {
+  height: 6rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  transition: border-bottom 0.1s;
+  background-color: #0072AF;
+}
+.nav-list-item a {
+  color: #fff;
+}
+.nav-list-item a:hover {
+  color: #000;
+}
+.nav-list-item a:focus {
+  color: #000;
+}
+.nav-list-item:hover {
+  border-bottom: 0.2rem solid #fff;
+}
+.nav-list-item a:visited {
+  color: #fff;
+}
+.nav-list-item a:active {
+  color: #000;
+}
+.nav-list-item a:active {
+  color: #000;
+}
+.nav-list-link {
+  width: 100%;
+  height: 100%;
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.nav-list-link i {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  transition: transform 0.3s;
+}
+/* ------------------ O ------------------ */
+/* ------------------ P ------------------ */
+.pseudo-table-container {
+  display: flex;
+  column-gap: 2rem;
+	width: 50%;
+	padding-bottom: 1rem;
+}
+.pseudo-table-key-cell {
+  display: flex;
+	background-color: #a78e7ab3;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pseudo-table-value-cell {
+  display: flex;
+  font-size: 2rem;
+}/* ------------------ Q ------------------ */
+/* ------------------ R ------------------ */
+/* ------------------ S ------------------ */
+.section-history {
+  width: 100%;
+  height: 60vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(99,123,147,0.5) 0%,
+      rgba(99,123,147,0.6) 46%,
+      rgba(167,142,122,0.7) 100%
+    ),
+    url(../images/blackpool-beach.webp) top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-left {
+  width: 100%;
+  align-items: left;
+  padding: 1rem 0 1rem 0;
+}
+.section-1 {
+  width: 100%;
+  height: 60vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(99,123,147,0.5) 0%,
+      rgba(99,123,147,0.6) 46%,
+      rgba(167,142,122,0.7) 100%
+    ),
+    url(./../../images/blackpool-beach.webp) top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+.section-2-heading {
+  font-size: 4.5rem;
+  font-weight: 300;
+  color: #333;
+}
+.section-2-paragraph {
+  font-size: 2rem;
+  color: #000;
+  width: 70%;
+  margin: 0 auto 2rem auto;
+}
+.section-2-paragraph-grey {
+  font-size: 2rem;
+  color: #000;
+  background-color: lightgrey;
+  width: 70%;
+  margin: 0 auto 2rem auto;
+}
+.section-2-paragraph:hover {
+  border-bottom: 0.2rem solid #fff;
+}
+.section-2-paragraph a {
+  color: #0072AF;
+}
+.section-2-paragraph a:hover {
+  color: #000;
+}
+.section-2-paragraph a:focus {
+  color: #000;
+}
+.section-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+.section-5 {
+  width: 100%;
+}
+.section-5-top {
+  width: 100%;
+  background-color: #f3f7fa;
+  text-align: center;
+  padding: 7rem 0;
+}
+.section-5-top-heading {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+.service {
+  width: 35rem;
+  text-align: center;
+  margin: 0 5rem;
+  padding-bottom: 2rem;
+}
+.service i {
+  font-size: 6rem;
+  margin: 2rem 0;
+}
+.service-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #036bb1;
+}
+.service-paragraph {
+  font-size: 2rem;
+  color: #036bb1;
+  margin-top: .5em;
+}
+.services {
+  display: flex;
+}
+.services-2 {
+  display: flex;
+  width: 70%;
+}
+.skip-link {
+  position: absolute!important;
+  width: 1px!important;
+  height: 1px!important;
+  margin: 0!important;
+  overflow: hidden!important;
+  clip: rect(0 0 0 0)!important;
+  -webkit-clip-path: inset(50%)!important;
+  clip-path: inset(50%)!important;
+  white-space: nowrap!important;
+  font-family: GDS Transport, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: underline;
+  font-size: 14px;
+  font-size: .875rem;
+  line-height: 1.14286;
+  display: block;
+  padding: 10px 15px;
+}
+.skip-link:active, .skip-link:focus {
+  position: static!important;
+  width: auto!important;
+  height: auto!important;
+  margin: inherit!important;
+  overflow: visible!important;
+  clip: auto!important;
+  -webkit-clip-path: none!important;
+  clip-path: none!important;
+  white-space: inherit!important;
+}
+@media print {
+  .skip-link {
+  font-family: sans-serif;
+}
+}.skip-link:link, .skip-link:visited {
+  color: #0b0c0c;
+}
+@media print {
+  .skip-link: link, .skip-link:visited {
+  color: #000;
+}
+}.skip-link:hover {
+  color: rgba(11, 12, 12, .99);
+}
+.skip-link:active, .skip-link:focus {
+  color: #0b0c0c;
+}
+@media print {
+  .skip-link: active, .skip-link:focus {
+  color: #000;
+}
+}@media (min-width:40.0625em) {
+  .skip-link {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+}@media print {
+  .skip-link {
+  font-size: 14pt;
+  line-height: 1.2;
+}
+}@supports (padding:max(calc(0px))) {
+  .skip-link {
+  padding-right: max(15px, calc(15px + env(safe-area-inset-right)));
+  padding-left: max(15px, calc(15px + env(safe-area-inset-left)));
+}
+}.skip-link:focus {
+  outline: 3px solid #fd0;
+  outline-offset: 0;
+  background-color: #fd0;
+}
+.skip-link-focused-element:focus {
+  outline: none;
+}
+/* ------------------ T ------------------ */
+/* ------------------ U ------------------ */
+.ul-bulleted-list {
+  width: 70%;
+  text-align: left;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+/* ------------------ V ------------------ */
+.vfb-link {
+  font-family: GDS Transport, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: underline;
+  font-size: 1.75rem;
+}
+.vfb-link:focus {
+  outline: 3px solid rgba(0, 0, 0, 0);
+  background-color: #fd0;
+  box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+  text-decoration: none;
+}
+@media print {
+  .vfb-link[href^="/"]: after, .vfb-link[href^="http://"]:after, .vfb-link[href^="https://"]:after {
+  content: " (" attr(href) ")";
+  font-size: 90%;
+  word-wrap: break-word;
+}
+/* ------------------ W ------------------ */
+/* ------------------ X ------------------ */
+/* ------------------ Y ------------------ */
+/* ------------------ Z ------------------ */
+
+
+
+
+
+
+
+
+
+
